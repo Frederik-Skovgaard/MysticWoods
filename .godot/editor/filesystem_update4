@@ -1,0 +1,7 @@
+res://Scense/world.tscn
+res://Scense/Player.tscn
+res://Scense/transition_world.tscn
+res://Scense/death_screen.tscn
+res://Scense/credits.tscn
+res://Scripts/transition_world.gd
+res://Scripts/credits.gd

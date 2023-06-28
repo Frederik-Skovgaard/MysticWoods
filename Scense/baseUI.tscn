@@ -1,0 +1,56 @@
+[gd_scene load_steps=7 format=3 uid="uid://bvtr0rs45kxfn"]
+
+[ext_resource type="Script" path="res://Scripts/baseUI.gd" id="1_tgnvk"]
+[ext_resource type="Texture2D" uid="uid://bfmu0pef7qn67" path="res://UI/four_hearts.png" id="1_tn8uu"]
+[ext_resource type="Texture2D" uid="uid://cs721wasp1g38" path="res://UI/three_hearts.png" id="2_3gixn"]
+[ext_resource type="Texture2D" uid="uid://dwkgnunksna7j" path="res://UI/two_hearts.png" id="3_3rcs3"]
+[ext_resource type="Texture2D" uid="uid://dhmiltle0k2s8" path="res://UI/one_heart.png" id="4_xmtv2"]
+[ext_resource type="Texture2D" uid="uid://c1fd4x6jkaev" path="res://UI/ded.png" id="5_1rvtw"]
+
+[node name="UI" type="CanvasLayer"]
+script = ExtResource("1_tgnvk")
+
+[node name="HealthBar" type="CanvasGroup" parent="."]
+
+[node name="Four" type="TextureRect" parent="HealthBar"]
+offset_left = 10.0
+offset_top = 7.0
+offset_right = 168.0
+offset_bottom = 40.0
+texture = ExtResource("1_tn8uu")
+
+[node name="Three" type="TextureRect" parent="HealthBar"]
+visible = false
+clip_contents = true
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 168.0
+offset_bottom = 38.0
+texture = ExtResource("2_3gixn")
+
+[node name="Two" type="TextureRect" parent="HealthBar"]
+visible = false
+clip_contents = true
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 168.0
+offset_bottom = 38.0
+texture = ExtResource("3_3rcs3")
+
+[node name="One" type="TextureRect" parent="HealthBar"]
+visible = false
+clip_contents = true
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 168.0
+offset_bottom = 38.0
+texture = ExtResource("4_xmtv2")
+
+[node name="Dead" type="TextureRect" parent="HealthBar"]
+visible = false
+clip_contents = true
+offset_left = 10.0
+offset_top = 5.0
+offset_right = 168.0
+offset_bottom = 38.0
+texture = ExtResource("5_1rvtw")

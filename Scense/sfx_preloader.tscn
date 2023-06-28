@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=3 uid="uid://t8ogqqb5hntf"]
+
+[ext_resource type="Script" path="res://Scripts/SFX_preloader.gd" id="1_oohqg"]
+[ext_resource type="AudioStream" uid="uid://dboxcdqiavsul" path="res://Sound/SFX/Minifantasy_Dungeon_SFX/07_human_atk_sword_2.wav" id="2_q8l58"]
+[ext_resource type="AudioStream" uid="uid://bnsw433fiv6yd" path="res://Sound/SFX/Pixabay/glass-bottle-shatter-13847.mp3" id="3_hry5u"]
+[ext_resource type="AudioStream" uid="uid://dlryvg2o43opa" path="res://Sound/SFX/Pixabay/plate-break-1-36468.mp3" id="4_kdxaj"]
+[ext_resource type="AudioStream" uid="uid://csg7d1net35he" path="res://Sound/SFX/Pixabay/Hurt.mp3" id="5_jkvms"]
+
+[node name="SFX_preloader" type="Node"]
+script = ExtResource("1_oohqg")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_q8l58")
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_hry5u")
+
+[node name="AudioStreamPlayer3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_kdxaj")
+
+[node name="AudioStreamPlayer4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_jkvms")
