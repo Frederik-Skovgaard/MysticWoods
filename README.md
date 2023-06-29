@@ -61,7 +61,7 @@ Wave based survivor. Defeat enemies collect point to get the record
 
 ### Options
 * **Quiet**		 -  [ARROW-UP]
-* **Restart** 	 - [LEFT-CLICK]
+* **Restart** 	 - [RIGHT-CLICK]
 * **Start** - [LEFT-CLICK]
 
 # Methods
