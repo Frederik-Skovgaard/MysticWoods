@@ -39,6 +39,7 @@ func _process(delta):
 		can_move = true
 
 func _on_player_restart_start():
+	bgm.volume_db = -20.124
 	bgm.play()
 	for enemy in get_tree().get_nodes_in_group("enemies"):
 		enemy.queue_free()
