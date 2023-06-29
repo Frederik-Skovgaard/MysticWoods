@@ -42,8 +42,9 @@ Wave based survivor. Defeat enemies collect point to get the record
 * [Guide](#Guide)
 	* [Movement](#Movement)
 		 [Options](#Options)
-* [Method Used](#Method-Used)
-	* [Spawn Methods](#Spawn-methods)
+* [Methods](#Method-Used)
+	* [Player Movement](#Player-Movement)
+   	* [Enemy spawner](#Enemy-spawner)
 
 # System Requirements 
 **RAM:** 4GB
