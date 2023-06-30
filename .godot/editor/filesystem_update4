@@ -1,0 +1,15 @@
+res://Scense/baseUI.tscn
+res://Scense/Player.tscn
+res://Scense/world.tscn
+res://Scense/transition_world.tscn
+res://Scense/death_screen.tscn
+res://Scense/credits.tscn
+res://Scense/SlimeEnemy.tscn
+res://Scripts/SlimeEnemy.gd
+res://Scripts/detection_zone.gd
+res://Scense/detection_zone.tscn
+res://Scripts/world.gd
+res://Scense/SlimeEnemy_4.tscn
+res://Scense/SlimeEnemy_3.tscn
+res://Scense/SlimeEnemy_2.tscn
+res://Scense/tree.tscn

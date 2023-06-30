@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsa11rw1hp843"]
+
+[ext_resource type="Texture2D" uid="uid://b4cv70cvs2lcf" path="res://Tile_Art/Objects/tree_one.png" id="1_xv4b0"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tlbuq"]
+radius = 10.5574
+height = 28.0392
+
+[node name="Area2D" type="Area2D"]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(0, -27)
+collision_mask = 3
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_xv4b0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 17.5953)
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_tlbuq")
+
+[node name="NavigationObstacle2D" type="NavigationObstacle2D" parent="."]
